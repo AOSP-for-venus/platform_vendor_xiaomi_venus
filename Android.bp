@@ -6,7 +6,7 @@ soong_namespace {
 }
 
 prebuilt_etc_xml {
-	name: "fod",
+	name: "manifest_fod",
 	owner: "xiaomi",
 	src: "proprietary/vendor/etc/vintf/manifest/fod.xml",
 	filename_from_src: true,
