@@ -343,6 +343,31 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/venus/proprietary/vendor_ramdisk/lib/firmware/st_fts_k2_htp.ftb:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/lib/firmware/st_fts_k2_htp.ftb \
     vendor/xiaomi/venus/proprietary/vendor/firmware/venus_bu63169_ois.coeff:$(TARGET_COPY_OUT_VENDOR)/firmware/venus_bu63169_ois.coeff \
     vendor/xiaomi/venus/proprietary/vendor/firmware/venus_bu63169_ois.prog:$(TARGET_COPY_OUT_VENDOR)/firmware/venus_bu63169_ois.prog \
+    vendor/xiaomi/venus/proprietary/vendor/firmware/vpu20_1v.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b00 \
+    vendor/xiaomi/venus/proprietary/vendor/firmware/vpu20_1v.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b01 \
+    vendor/xiaomi/venus/proprietary/vendor/firmware/vpu20_1v.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b02 \
+    vendor/xiaomi/venus/proprietary/vendor/firmware/vpu20_1v.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b03 \
+    vendor/xiaomi/venus/proprietary/vendor/firmware/vpu20_1v.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b04 \
+    vendor/xiaomi/venus/proprietary/vendor/firmware/vpu20_1v.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b05 \
+    vendor/xiaomi/venus/proprietary/vendor/firmware/vpu20_1v.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b06 \
+    vendor/xiaomi/venus/proprietary/vendor/firmware/vpu20_1v.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b07 \
+    vendor/xiaomi/venus/proprietary/vendor/firmware/vpu20_1v.b08:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b08 \
+    vendor/xiaomi/venus/proprietary/vendor/firmware/vpu20_1v.b09:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b09 \
+    vendor/xiaomi/venus/proprietary/vendor/firmware/vpu20_1v.b10:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b10 \
+    vendor/xiaomi/venus/proprietary/vendor/firmware/vpu20_1v.b11:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b11 \
+    vendor/xiaomi/venus/proprietary/vendor/firmware/vpu20_1v.b12:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b12 \
+    vendor/xiaomi/venus/proprietary/vendor/firmware/vpu20_1v.b13:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b13 \
+    vendor/xiaomi/venus/proprietary/vendor/firmware/vpu20_1v.b14:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b14 \
+    vendor/xiaomi/venus/proprietary/vendor/firmware/vpu20_1v.b15:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b15 \
+    vendor/xiaomi/venus/proprietary/vendor/firmware/vpu20_1v.b16:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b16 \
+    vendor/xiaomi/venus/proprietary/vendor/firmware/vpu20_1v.b17:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b17 \
+    vendor/xiaomi/venus/proprietary/vendor/firmware/vpu20_1v.b18:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b18 \
+    vendor/xiaomi/venus/proprietary/vendor/firmware/vpu20_1v.b19:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b19 \
+    vendor/xiaomi/venus/proprietary/vendor/firmware/vpu20_1v.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.elf \
+    vendor/xiaomi/venus/proprietary/vendor/firmware/vpu20_1v.lst:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.lst \
+    vendor/xiaomi/venus/proprietary/vendor/firmware/vpu20_1v.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.mbn \
+    vendor/xiaomi/venus/proprietary/vendor/firmware/vpu20_1v.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.mdt \
+    vendor/xiaomi/venus/proprietary/vendor/firmware/vpu20_1v_unsigned.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v_unsigned.mbn \
     vendor/xiaomi/venus/proprietary/vendor/firmware/vpu20_2v.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b00 \
     vendor/xiaomi/venus/proprietary/vendor/firmware/vpu20_2v.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b01 \
     vendor/xiaomi/venus/proprietary/vendor/firmware/vpu20_2v.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b02 \
@@ -386,6 +411,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/venus/proprietary/vendor/firmware/vpu20_4v.b17:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b17 \
     vendor/xiaomi/venus/proprietary/vendor/firmware/vpu20_4v.b18:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b18 \
     vendor/xiaomi/venus/proprietary/vendor/firmware/vpu20_4v.b19:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b19 \
+    vendor/xiaomi/venus/proprietary/vendor/firmware/vpu20_4v.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.elf \
+    vendor/xiaomi/venus/proprietary/vendor/firmware/vpu20_4v.lst:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.lst \
     vendor/xiaomi/venus/proprietary/vendor/firmware/vpu20_4v.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.mbn \
     vendor/xiaomi/venus/proprietary/vendor/firmware/vpu20_4v.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.mdt \
     vendor/xiaomi/venus/proprietary/vendor/firmware/vpu20_4v_unsigned.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v_unsigned.mbn \
@@ -764,4 +791,4 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/venus/proprietary/vendor/lib64/vendor.xiaomi.hardware.fx.tunnel@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.fx.tunnel@1.0.so
 
 PRODUCT_PACKAGES += \
-    manifest_fod
+    fod
