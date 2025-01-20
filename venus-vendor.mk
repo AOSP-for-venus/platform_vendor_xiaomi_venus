@@ -433,6 +433,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/venus/proprietary/vendor_ramdisk/lib/firmware/st_fts_k2_htp.ftb:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/lib/firmware/st_fts_k2_htp.ftb
 
 PRODUCT_PACKAGES += \
+    libbitmlengine \
+    libcamera_nn_stub \
     libcamxexternalformatutils \
     libcamxfacialfeatures \
     libcamxfdalgo \
@@ -451,6 +453,10 @@ PRODUCT_PACKAGES += \
     libmmcamera_faceproc2 \
     libmmcamera_lscv35 \
     libmmcamera_mfnr \
+    libofflinelog \
+    libopencv \
+    vendor.xiaomi.hardware.cameraperf@1.0-impl \
+    vendor.xiaomi.hardware.cameraperf@1.0 \
     audio.primary.lahaina \
     libacdb-fts \
     libacdbloader \
@@ -640,11 +646,9 @@ PRODUCT_PACKAGES += \
     libarcsoft_super_night_raw \
     libarcsoft_triple_sat \
     libarcsoft_triple_zoomtranslator \
-    libbitmlengine \
     libblink \
     libc++_shared \
     libcamera_dirty \
-    libcamera_nn_stub \
     libcamera_scene \
     libcamerapostproc \
     libcapiv2svacnn \
@@ -690,8 +694,6 @@ PRODUCT_PACKAGES += \
     libnanopb \
     libnotifyaudiohal \
     libofflinedump \
-    libofflinelog \
-    libopencv \
     libopestriping \
     libos \
     libqll10 \
@@ -731,8 +733,6 @@ PRODUCT_PACKAGES += \
     sensors.ssc \
     sensors.touch.detect \
     vendor.qti.hardware.camera.postproc@1.0-service-impl \
-    vendor.xiaomi.hardware.cameraperf@1.0-impl \
-    vendor.xiaomi.hardware.cameraperf@1.0 \
     vendor.xiaomi.hardware.campostproc@1.0-service-impl \
     vendor.xiaomi.hardware.campostproc@1.0 \
     vendor.xiaomi.hardware.citsensorservice@1.0 \
