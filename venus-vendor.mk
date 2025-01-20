@@ -668,7 +668,6 @@ PRODUCT_PACKAGES += \
     libhdrdynamic \
     libhdrdynamicootf \
     libhexagon_controller \
-    libion \
     libipebpsstriping \
     libmegface \
     libmiai_deblur \
